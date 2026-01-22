@@ -35,9 +35,8 @@ conda create --name GIP python=3.9 -y
 conda activate GIP
 
 # Install core dependencies
-pip install torch torchvision torchaudio chumpy vctoolkit open3d pybullet qpsolvers cvxopt prettytable tensorboard qpsolvers\[quadprog\] cython wandb cmake pytorch_lightning pykeops einops numpy==1.23.5
+python -m pip install torch torchvision torchaudio chumpy vctoolkit open3d pybullet qpsolvers cvxopt prettytable tensorboard qpsolvers\[quadprog\] cython wandb cmake pytorch_lightning pykeops einops numpy==1.23.5
 
-conda install cmake
 ```
 
 ### 2. Libraries & Models
@@ -61,7 +60,7 @@ conda install cmake
 python modules/dataset/preprocess.py
 ``` -->
 
-1. **Interhuman Dataset**: Download the preprocessed Interhuman dataset from [here](https://drive.google.com/drive/folders/1mRtHkGrgjZUYEesZBd8PW2ZxYn8C-6cV?usp=sharing) and place into the folder `data/processed_data/`.
+1. **Interhuman Dataset**: Download the preprocessed Interhuman dataset from [here](https://drive.google.com/drive/folders/1mRtHkGrgjZUYEesZBd8PW2ZxYn8C-6cV?usp=sharing) and place into the folder `data/processed_data/`. Please note that by downloading the preprocessed datasets you agree to the same license conditions as for the Interhuman dataset (https://tr3e.github.io/intergen-page/). You may only use the data for scientific purposes and cite the corresponding papers.
 
 2. **Pre-trained Weights**: Download the GIP [Weights](https://drive.google.com/file/d/1yjzYCBn-sY4Ce9oKyVVL2n0o8qoiFRsl/view?usp=sharing) and place them in your checkpoint directory.
 
