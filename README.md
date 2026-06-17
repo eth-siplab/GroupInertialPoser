@@ -96,7 +96,7 @@ python Train_model.py --pretrain_model '' \
 ```
 
 ## 📊 Dataset (GIP-DB)
-Please stay tuned! The GIP-DB dataset will be released soon, featuring 200 minutes of synchronized motion recordings from 14 participants.
+Download the dataset from [here](https://drive.google.com/drive/folders/12XM1rB2hlYHRXuOSPrX5di3WNynthVvR?usp=sharing) and place it into the folder `data/processed_data/GIP-DB/`.
 
 
 ## 📝 Citation
